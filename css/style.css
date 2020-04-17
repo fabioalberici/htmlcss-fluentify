@@ -114,3 +114,23 @@ header {
 }
 /*fine titolo*/
 /*fine header*/
+/*inizio main */
+/*inizio discorso */
+.discorso {
+  height: 100px;
+  width: 100%;
+  background: #e6e6e6;
+}
+.container h6 {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 15px;
+  padding-bottom: 9px;
+}
+.discorso .container .sottodiscorso {
+  text-align: center;
+  font-size: 15px;
+  color: #a6a6a6;
+}
+/*fine discorso */
+/*inizio prima riga*/
