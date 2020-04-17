@@ -134,3 +134,64 @@ header {
 }
 /*fine discorso */
 /*inizio prima riga*/
+.rigauno {
+  height: 350px;
+  width: 100%;
+  border: 1px solid #f2f2f2;
+}
+.uno-sinistra {
+  height:350px;
+  width: 33.33%;
+  background-color: yellow;
+  float: left;
+}
+.fotouno {
+  width: 60%;
+  height: 30%;
+  margin: 10% 20% 0;
+}
+.uno-centro {
+  height: 350px;
+  width: 33.33%;
+  float: left;
+  background-color: purple;
+}
+.fotodue {
+  width: 60%;
+  height: 30%;
+  margin: 10% 20% 0;
+}
+.uno-destra {
+  height: 350px;
+  width: 33.33%;
+  float: right;
+  background: red;
+}
+/*fine riga uno */
+/*inizio riga due */
+.rigadue {
+  height: 350px;
+  width: 100%;
+  background: green;
+}
+.due-sinistra {
+  height: 350px;
+  width: 40%;
+  margin-left: 10%;
+  background: blue;
+  float: left;
+}
+.due-destra {
+  height: 350px;
+  width: 50%;
+  background: black;
+  float: left;
+}
+/*fine riga due*/
+/*fine main */
+/*inizio footer */
+.sotto {
+  width: 100%;
+  height: 150px;
+  background: #f2f2f2;
+}
