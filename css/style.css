@@ -167,6 +167,11 @@ header {
   float: right;
   background: red;
 }
+.fototre {
+  height: 30%;
+  width: 60%;
+  margin: 10% 20% 0;
+}
 /*fine riga uno */
 /*inizio riga due */
 .rigadue {
@@ -178,8 +183,12 @@ header {
   height: 350px;
   width: 40%;
   margin-left: 10%;
-  background: blue;
   float: left;
+}
+.fotoquattro {
+  width: 80%;
+  height: 80%;
+  margin: 10%;
 }
 .due-destra {
   height: 350px;
