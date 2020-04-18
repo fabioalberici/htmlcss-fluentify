@@ -137,47 +137,106 @@ header {
 .rigauno {
   height: 350px;
   width: 100%;
-  border: 1px solid #f2f2f2;
 }
+/*inzio foto pc*/
 .uno-sinistra {
   height:350px;
   width: 33.33%;
-  background-color: yellow;
+  background-color: white;
   float: left;
+  text-decoration: none;
+}
+.uno-sinistra h3 {
+  color: #33cc33;
+  text-align: center;
+  margin-top: 18px;
+  font-size: 15px;
+}
+.uno-sinistra hr {
+  width: 20%;
+  margin: 6% 40% 0%;
 }
 .fotouno {
   width: 60%;
   height: 30%;
-  margin: 10% 20% 0;
+  margin: 10% 20% 0%;
 }
+.uno-sinistra p {
+  font-size: 13px;
+  text-align: center;
+  margin-top: 10px;
+  color: #b3b3b3;
+}
+/*fine foto pc*/
+/*inizio tutor */
 .uno-centro {
   height: 350px;
   width: 33.33%;
   float: left;
-  background-color: purple;
+  background-color: white;
 }
 .fotodue {
   width: 60%;
   height: 30%;
   margin: 10% 20% 0;
 }
+.uno-centro h3 {
+  color: #33cc33;
+  text-align: center;
+  margin-top: 18px;
+  font-size: 15px;
+}
+.uno-centro hr {
+  width: 20%;
+  margin: 6% 40% 0%;
+}
+.uno-centro p {
+  font-size: 13px;
+  text-align: center;
+  margin-top: 10px;
+  color: #b3b3b3;
+}
+/*fine tutor */
+/*inizio documenti */
 .uno-destra {
   height: 350px;
   width: 33.33%;
   float: right;
-  background: red;
+  background: white;
 }
 .fototre {
   height: 30%;
   width: 60%;
   margin: 10% 20% 0;
 }
+.uno-destra h3 {
+  color: #33cc33;
+  text-align: center;
+  margin-top: 18px;
+  font-size: 15px;
+}
+.uno-destra hr {
+  width: 20%;
+  margin: 6% 40% 0%;
+}
+.uno-destra p {
+  font-size: 13px;
+  text-align: center;
+  margin-top: 10px;
+  color: #b3b3b3;
+}
+/*fine documenti*/
 /*fine riga uno */
+hr {
+  margin:auto;
+  width: 1024px;
+  color: #b3b3b3;
+}
 /*inizio riga due */
 .rigadue {
   height: 350px;
   width: 100%;
-  background: green;
+  background: white;
 }
 .due-sinistra {
   height: 350px;
@@ -193,8 +252,28 @@ header {
 .due-destra {
   height: 350px;
   width: 50%;
-  background: black;
+  background: white;
   float: left;
+}
+.due-destra h2 {
+  margin-left: 5%;
+  margin-top: 8%;
+  font-size: 24px;
+}
+.due-destra p {
+  margin-left: 5%;
+  margin-top: 3%;
+  font-size: 15px;
+  color: #b3b3b3;
+}
+.due-destra a {
+  margin-left: 10%;
+  color: blue;
+  font-size: 10px;
+}
+.placement {
+  margin-left: -6%;
+  margin-top: 2%;
 }
 /*fine riga due*/
 /*fine main */
