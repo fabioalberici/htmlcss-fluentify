@@ -238,6 +238,7 @@ hr {
   width: 100%;
   background: white;
 }
+/*inizio parte destra */
 .due-sinistra {
   height: 350px;
   width: 40%;
@@ -249,6 +250,8 @@ hr {
   height: 80%;
   margin: 10%;
 }
+/* fine parte detsra */
+/*inizio parte sinistra */
 .due-destra {
   height: 350px;
   width: 50%;
@@ -275,6 +278,7 @@ hr {
   margin-left: -6%;
   margin-top: 2%;
 }
+/*fine parte destra*/
 /*fine riga due*/
 /*fine main */
 /*inizio footer */
@@ -282,4 +286,59 @@ hr {
   width: 100%;
   height: 150px;
   background: #f2f2f2;
+  position: relative;
 }
+.str-piano {
+  font-size: 20px;
+  padding-top: 65px;
+  text-align: left;
+}
+.visualizza {
+  background: #33cc33;
+  right: 12%;
+  position: absolute;
+  bottom: 32%;
+  border: 1px solid #33cc33;
+  border-radius: 3px;
+}
+.visualizza p {
+  font-size: 10px;
+  color: white;
+  padding: 10px;
+}
+.visualizza {
+  cursor: pointer;
+}
+.help {
+  background: #33cc33;
+  font-size: 12px;
+  position: absolute;
+  color: white;
+  border: 1px solid #33cc33;
+  border-radius: 3px;
+  bottom: 0%;
+  right: 17%;
+  padding: 7px 3px;
+}
+.help:hover {
+  cursor: pointer;
+}
+.seleziona {
+  position: absolute;
+  color: #a6a6a6;
+  right: 29%;
+  bottom: 35%;
+}
+.seleziona hr {
+  width: 110px;
+  height: 1px;
+  color: grey;
+  bottom: 8px;
+}
+.sono {
+  position: absolute;
+  right: 40%;
+  bottom: 36%;
+  color: #a6a6a6;
+}
+/*fine footer*/
